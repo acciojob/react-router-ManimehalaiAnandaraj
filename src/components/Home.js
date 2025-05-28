@@ -1,14 +1,13 @@
-import {Link } from 'react-router-dom';
+import React from 'react';
+import Navigation from './Navigation';
 
 const Home = () => {
   return (
     <div>
-        <h1>Welcome to my website</h1>
-        <nav>
-            <Link to="/about">About</Link>
-        </nav>
+      <Navigation /> {/* Use Navigation here */}
+      <h1>Welcome to my website</h1>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
