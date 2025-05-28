@@ -1,13 +1,12 @@
-import React from 'react';
-//import Navigation from './Navigation'; // Ensure this import is correct
+import {Link } from 'react-router-dom'
+import React from 'react'
 
 const Home = () => {
-  return (
-    <div>
-     
-      <h1>Welcome to my website</h1>
-    </div>
-  );
+return (
+<div>
+<h1>Welcome to my website</h1>
+</div>
+)
 }
 
-export default Home;
+export default Home
